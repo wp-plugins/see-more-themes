@@ -1,6 +1,8 @@
 See More Themes
 =====================
 
+View [See More Themes](http://wordpress.org/plugins/see-more-themes/) on WordPress
+
 When viewing installed themes or searching for new themes in your WordPress dashboard, See More Themes allows you to... see more themes... on the screen at once.
 
 ### Configuration

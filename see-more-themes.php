@@ -8,8 +8,7 @@
  * Author URI: http://seandavis.co
  * License: GPL2
  * Requires at least: 3.8
- * Tested up to: 3.9
- * Domain Path: /languages/
+ * Tested up to: 4.1
  * 
  * This plugin is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as 
@@ -31,7 +30,7 @@ class See_More_Themes
 		// load the CSS... I mean... that's what we're here for
 		add_action( 'admin_enqueue_scripts', array( $this, 'see_more_themes_styles' ), 10, 2 );
 	}
-	
+
 	// we only want the stylesheet if the Themes page is being loaded
 	public function see_more_themes_styles( $hook ) {
 		if ( 'themes.php' == $hook || 'theme-install.php' == $hook ) {
